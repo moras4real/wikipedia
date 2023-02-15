@@ -214,7 +214,7 @@ select:hover {
 }
 
 .wiki10a {
-    border: 2px solid blue;
+    border: 2px solid none;
     width: 362px;
     height: 380px;    
 }
@@ -290,12 +290,47 @@ select:hover {
 }
 .wiki16 {
     border: 2px solid blue;
-    width: 700px;
-    height: 400px;    
+    width: 900px;
+    height: 400px; 
+    padding-top: 50px; 
+    padding-left: 50px; 
+    display: flex; 
+    flex-flow: row wrap;
+    
 }
 
-.wiki16a {
+#wiki16a {
     border: 2px solid yellow;
-    width: 150px;
-    height: 100px;    
+    width: 280px;
+    height: 70px; 
+    font-family: sans-serif;     
+    font-size: 13.7px; 
+    line-height: 20px; 
+    display: flex;   
+}
+
+#wiki16a:hover {
+    background-color: rgb(234, 236, 240);
+}
+
+#wiki16b {    
+    border: 2px solid green;
+    width: 50px;
+    height: 50px; 
+}
+
+#wiki16c {    
+    border: 2px solid green;
+    width: 200px;
+    height: 60px;     
+}
+
+#wiki16z {
+  text-decoration: none;
+  color: rgb(51, 102, 204);
+}
+
+#wiki16w {
+color: rgb(84, 89, 93);
+font-size: 12.5px;
 }
