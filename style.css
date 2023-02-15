@@ -8,25 +8,25 @@
     position: absolute;
     border: 2px solid none;
     width: 200px;
-    height: 200px;
+    height: 190px;
     margin-top: 180px;
     margin-left: 570px;
 }
                 
 .wikia {
-    border: 2px solid red;
+    border-bottom: 0.1px solid rgb(168, 161, 161);
     background-color: rgb(255, 255, 255);
     width: 1500px;
-    height: 700px;
+    height: 608px;
     padding-left: 320px;
     padding-top: 40px;    
 }
 
 .wikia1 {
-    border: 2px solid blue;
+    border: 2px solid none;
     background-color: rgb(255, 255, 255);
     width: 700px;
-    height: 600px;   
+    height: 565px;   
 }
 
 #wikia1a {
@@ -131,12 +131,16 @@ input {
 }
 
 #wikia5a {
-    border: 2px solid none;
+    border: 2px solid;
     background-color: blue;
     width: 55px;
     height: 41px; 
     padding-top: 8px;    
     padding-left: 10px;  
+}
+
+#wikia5a:hover {
+    cursor: pointer;
 }
 
 .wikia5b {
@@ -152,6 +156,14 @@ input {
     width: 55px;
     height: 40px;
     padding-top: 10px;    
+}
+
+#wikia5c:hover {
+    cursor: pointer;
+}
+
+select:hover {
+    cursor: pointer;
 }
 
 .wikia6 {
@@ -183,6 +195,8 @@ input {
     display: flex;
 }
 
+
+
 #wikia7 {
     border-bottom: 2px solid rgb(168, 161, 161);
     background-color: rgb(255, 255, 255);
@@ -190,8 +204,98 @@ input {
     height: 27px;
 }
 
+.wiki10 {
+    border-bottom: 0.1px solid rgb(168, 161, 161);
+    background-color: rgb(255, 255, 255);
+    width: 1500px;
+    height: 600px;
+    padding-left: 70px;
+    display: flex;   
+}
 
+.wiki10a {
+    border: 2px solid blue;
+    width: 362px;
+    height: 380px;    
+}
 
+#wiki10b {
+    border: 2px solid none;
+    width: 358px;
+    height: 150px;
+    display: flex;
+    padding-top: 40px;
+}
 
+#wiki10c {
+    border: 2px solid rgb(248, 249, 250);
+    background-color: rgb(248, 249, 250);
+    width: 358px;
+    height: 190px;
+    display: flex;
+    padding-top: 10px;
+}
 
+#wiki10d {
+    border: 2px solid none;
+    width: 50px;
+    height: 50px;
+}
 
+#wiki10e {
+    border: 2px solid none;
+    width: 290px;
+    height: 100px; 
+    font-family: sans-serif; 
+    color: rgb(84, 89, 93);
+    font-size: 13.7px; 
+    line-height: 19px;  
+}
+
+#wiki10f {
+    border: 2px solid none;
+    background-color: rgb(255, 255, 255);
+    width: 44px;
+    height: 44px;
+}
+
+#wiki10g {
+    border: 2px solid none;
+    width: 290px;
+    height: 160px;
+    font-family: sans-serif; 
+    color: rgb(84, 89, 93); 
+    font-size: 13.7px; 
+    line-height: 19px; 
+    margin-left: 5px; 
+}
+
+#wiki12 {
+    text-decoration: none;
+    color:  rgb(51, 102, 204);
+}
+
+#wiki12:hover {
+    text-decoration: underline;
+}
+
+#wiki12a {
+    text-decoration: none;
+    color: rgb(51, 102, 204);
+    font-size: 13px;
+}
+
+#wiki12a:hover {
+    text-decoration: underline;
+}
+.wiki16 {
+    border: 2px solid blue;
+    width: 700px;
+    height: 400px;    
+}
+
+.wiki16a {
+    border: 2px solid yellow;
+    width: 150px;
+    height: 100px;    
+}
