@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .wik {
@@ -208,7 +209,7 @@ select:hover {
     border-bottom: 0.1px solid rgb(168, 161, 161);
     background-color: rgb(255, 255, 255);
     width: 1500px;
-    height: 600px;
+    height: 430px;
     padding-left: 70px;
     display: flex;   
 }
@@ -289,7 +290,7 @@ select:hover {
     text-decoration: underline;
 }
 .wiki16 {
-    border: 2px solid blue;
+    border: 2px solid none;
     width: 900px;
     height: 420px; 
     padding-top: 50px; 
@@ -300,7 +301,7 @@ select:hover {
 }
 
 #wiki16a {
-    border: 2px solid yellow;
+    border: 2px solid none;
     width: 280px;
     height: 70px; 
     font-family: sans-serif;     
@@ -314,13 +315,13 @@ select:hover {
 }
 
 #wiki16b {    
-    border: 2px solid green;
+    border: 2px solid none;
     width: 50px;
     height: 50px; 
 }
 
 #wiki16c {    
-    border: 2px solid green;
+    border: 2px solid none;
     width: 200px;
     height: 60px;     
 }
@@ -333,4 +334,33 @@ select:hover {
 #wiki16w {
 color: rgb(84, 89, 93);
 font-size: 12.5px;
+}
+
+.wiki22 {
+    border: 2px solid none;
+    background-color: rgb(255, 255, 255);
+    width: 1500px;
+    height: 50px;
+    display: flex;
+    padding-top: 20px;   
+}
+
+#wiki22a {
+    border: 2px solid none;
+    background-color: rgb(255, 255, 255);
+    width: 1290px;
+    height: 25px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 13px;
+     color: rgb(84, 89, 93);
+}
+
+#wiki29 {
+    text-decoration: none;
+    color:  rgb(51, 102, 204);
+}
+
+#wiki29:hover {
+text-decoration: underline;
 }
