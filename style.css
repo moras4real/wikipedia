@@ -125,10 +125,10 @@
 }
 
 input {
+    border-style: none;
     background-color: rgb(255, 255, 255);
     width: 340px;
-    height: 41px; 
-    border-color: rgb(255, 255, 255);    
+    height: 41px;         
 }
 
 #wikia5a {
@@ -145,7 +145,7 @@ input {
 }
 
 .wikia5b {
-    border: 2px solid none;
+    border: 0.1px solid none;
     background-color: rgb(255, 255, 255);
     width: 340px;
     height: 41px;           
@@ -159,11 +159,15 @@ input {
     padding-top: 10px;    
 }
 
-#wikia5c:hover {
-    cursor: pointer;
+select {
+    border-style: none;
 }
 
 select:hover {
+    cursor: pointer;
+}
+
+#wikia5c:hover {
     cursor: pointer;
 }
 
@@ -180,7 +184,7 @@ select:hover {
 }
 
 #wikia6a {
-    border: 2px solid none;
+    border: 0.1px solid none;
     background-color: rgb(255, 255, 255);
     width: 298px;
     height: 30px;
@@ -194,14 +198,13 @@ select:hover {
     margin-left: 115px; 
     margin-top: 30px;
     display: flex;
+    gap: 5px;
 }
 
-
-
 #wikia7 {
-    border-bottom: 2px solid rgb(168, 161, 161);
+    border-bottom: 0.1px solid rgb(168, 161, 161);
     background-color: rgb(255, 255, 255);
-    width: 75px;
+    width: 70px;
     height: 27px;
 }
 
@@ -316,8 +319,8 @@ select:hover {
 
 #wiki16b {    
     border: 2px solid none;
-    width: 50px;
-    height: 50px; 
+    width: 53px;
+    height: 60px; 
 }
 
 #wiki16c {    
